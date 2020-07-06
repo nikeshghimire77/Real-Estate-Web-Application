@@ -1,4 +1,8 @@
 {
     "git.ignoreLimitWarning": true,
-    "python.pythonPath": "venv\\Scripts\\python.exe"
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+    ]
 }
