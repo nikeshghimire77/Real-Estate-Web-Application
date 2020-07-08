@@ -1,5 +1,6 @@
 REAL ESTATE BASED APPLICATION
 
+
 Technology used:
 
   Server side framework: Django
