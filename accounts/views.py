@@ -22,7 +22,7 @@ def register(request):
                     return ('register')
                 else:
                     user = User.objects.create_user(
-                        username=username, first_name=first_name, last_name=last_name,password=password
+                        username=username, first_name=first_name, last_name=last_name,password=password, email=email
                     )
                     user.save()
                     messages.success(request, ' You are now registered. Please enter your credentials')
